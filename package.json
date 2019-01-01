@@ -1,0 +1,31 @@
+{
+  "name": "s3config",
+  "version": "1.0.0",
+  "description": "App to interact with Scality s3server",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "aws-sdk": ""
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monithshah/s3Config.git"
+  },
+  "author": "Monith Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monithshah/s3Config/issues"
+  },
+  "homepage": "https://github.com/monithshah/s3Config#readme"
+}
